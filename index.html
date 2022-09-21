@@ -6,75 +6,74 @@
   </head>
   <body>
     <h2>Volunteer Form</h2>
-	<form method="POST" autocomplete="on" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
+    <form method="POST" autocomplete="on" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
       <fieldset>
       <legend><h3>My Info</h3></legend>
-        
         <div>
-	      <label>First Name: <input type="text" name="first_name_field" placeholder="type first name"></label>
-	    </div>
+	  <label>First Name: <input type="text" name="first_name_field" placeholder="type first name"></label>
+	</div>
         <div>
-	      <label>Last Name: <input type="text" name="last_name_field" placeholder="type last name"></label>
-	    </div>
+	  <label>Last Name: <input type="text" name="last_name_field" placeholder="type last name"></label>
+	</div>
         <div>
-	      <label>Phone Number: <input type="tel" name="phone_field" placeholder="type digits only"></label>
+	  <label>Phone Number: <input type="tel" name="phone_field" placeholder="type digits only"></label>
         </div>
         <div>
-	      <label>Email Address: <input type="email" name="email_field" placeholder="email@xyz.com"></label>
-	    </div>
+	  <label>Email Address: <input type="email" name="email_field" placeholder="email@xyz.com"></label>
+	</div>
         <div>
-	      <label>Gender: </label> 
-		  <label>Male:<input type="radio" name="gender_field" value="Male"></label> 
-		  <label>Female:<input type="radio" name="gender_field" value="Female"></label>
-	    </div>
+	  <label>Gender: </label> 
+	  <label>Male:<input type="radio" name="gender_field" value="Male"></label> 
+	  <label>Female:<input type="radio" name="gender_field" value="Female"></label>
+	</div>
         <div>
           <label>Age:</label>
           <select name="age_field">
             <option value="<18">under 18</option>
-		    <option value="18-24">18-24</option>
-		    <option value="25-34">25-34</option>
-		    <option value="35-44">35-44</option>
-		    <option value="45-54">45-54</option>
-		    <option value="55-64">55-64</option>
-		    <option value=">=65">65 and over</option>
+	    <option value="18-24">18-24</option>
+            <option value="25-34">25-34</option>
+	    <option value="35-44">35-44</option>
+	    <option value="45-54">45-54</option>
+	    <option value="55-64">55-64</option>
+	    <option value=">=65">65 and over</option>
           </select>
         </div>
       </fieldset>
       <fieldset>
-	  <legend><h3>My Availability</h3></legend>
+      <legend><h3>My Availability</h3></legend>
         <p>Days Available:</p>
         <div>
           <input type="checkbox" name="available_field[]" value="Sunday"><label>Sunday </label>
-		</div>
-		<div>
-	      <input type="checkbox" name="available_field[]" value="Monday"><label>Monday </label>
-		</div>
-		<div>
-		  <input type="checkbox" name="available_field[]" value="Tuesday"><label>Tuesday </label>
-		</div>
-		<div>
-		  <input type="checkbox" name="available_field[]" value="Wednesday"><label>Wednesday </label>
-		</div>
-		<div>
-		  <input type="checkbox" name="available_field[]" value="Thursday"><label>Thursday </label>
-		</div>
-		<div>
-		  <input type="checkbox" name="available_field[]" value="Friday"><label>Friday </label>
-		</div>
-		<div>
-		  <input type="checkbox" name="available_field[]" value="Saturday"><label>Saturday </label>
+	</div>
+	<div>
+	  <input type="checkbox" name="available_field[]" value="Monday"><label>Monday </label>
+	</div>
+	<div>
+	  <input type="checkbox" name="available_field[]" value="Tuesday"><label>Tuesday </label>
+	</div>
+	<div>
+	  <input type="checkbox" name="available_field[]" value="Wednesday"><label>Wednesday </label>
+	</div>
+	<div>
+	  <input type="checkbox" name="available_field[]" value="Thursday"><label>Thursday </label>
+	</div>
+	<div>
+	  <input type="checkbox" name="available_field[]" value="Friday"><label>Friday </label>
+	</div>
+	<div>
+	  <input type="checkbox" name="available_field[]" value="Saturday"><label>Saturday </label>
         </div>
         <div>
-	      <label>Any Comments?</label>
-	    </div>
+	  <label>Any Comments?</label>
+	</div>
         <div>
-	      <textarea cols = "35" rows = "15" name = "comments_field" placeholder = "Your questions/comments are welcome"></textarea>
-	    </div>
+	  <textarea cols = "35" rows = "15" name = "comments_field" placeholder = "Your questions/comments are welcome"></textarea>
+        </div>
       </fieldset>
-	  <div>
-	    <input type="hidden" name="hidden_field" value="mali66">
-	  </div>
-	  <input type="submit" value="Send Me">
+      <div>
+	<input type="hidden" name="hidden_field" value="mali66">
+      </div>
+      <input type="submit" value="Send Me">
     </form>
   </body>
 </html>
